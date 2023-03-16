@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/0.Scene/Brotato.unity
+  isLoaded: 1
+  isActive: 1

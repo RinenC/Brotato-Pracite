@@ -1,0 +1,19 @@
+﻿public enum RewStat
+{
+    Maxhp,
+    HpReg,
+    Leech,
+    Dmgper,
+    Meeledmg,
+    Rangedmg,
+    Eledmg,
+    Atkspd,
+    Critchance,
+    Engineer,
+    Atkrange,
+    Armor,
+    Avoid,
+    Movespd,
+    Luck,
+    Income,
+}

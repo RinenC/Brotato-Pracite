@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  - Bullet
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - UI Background
+  - 
+  - WeaponSlot
+  - 
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1563264233
+    locked: 0
+  - name: UI Background
+    uniqueID: 3605253453
+    locked: 0
+  - name: Item
+    uniqueID: 1555600725
+    locked: 0
+  - name: Enemy
+    uniqueID: 3214116997
+    locked: 0
+  - name: Weapon
+    uniqueID: 586398653
+    locked: 0

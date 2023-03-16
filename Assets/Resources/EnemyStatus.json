@@ -1,0 +1,41 @@
+[
+  {
+    "idx": 0,
+    "name": "opposum",
+    "maxhp": 3,
+    "addhpPwave": 2,
+    "movespd": 250,
+    "dmg": 1,
+    "adddmg/wave": 0.75,
+    "killgold": 1,
+    "regitemdropC": 0.01,
+    "boxdropC": 0.01,
+    "spawnwave": 1
+  },
+  {
+    "idx": 1,
+    "name": "frog",
+    "maxhp": 1,
+    "addhpPwave": 1,
+    "movespd": 380,
+    "dmg": 1,
+    "adddmg/wave": 0.75,
+    "killgold": 1,
+    "regitemdropC": 0.02,
+    "boxdropC": 0.03,
+    "spawnwave": 2
+  },
+  {
+    "idx": 2,
+    "name": "eagle",
+    "maxhp": 8,
+    "addhp/wave": 1,
+    "movespd": 200,
+    "dmg": 1,
+    "adddmgPwave": 0.75,
+    "killgold": 1,
+    "regitemdropC": 0.03,
+    "boxdropC": 0.1,
+    "spawnwave": 4
+  }
+]

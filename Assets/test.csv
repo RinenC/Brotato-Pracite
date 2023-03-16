@@ -1,0 +1,4 @@
+idx, name, maxhp, hpreg, leech, dmgper, meeledmg, rangedmg, eledmg, atkspd, critchan, engineer, atkrange, armor, avoid, movespd, luck, income
+0,default,15,0,0,0,0,0,0,0,0,0,0,0,0,5,0,8
+1,fighter,0,0,0,0,0,-50,0,0,0,0,-50,0,15,0,0,0
+2,madman,0,0,0,0,0,-10,0,25,0,-10,0,0,-30,0,0,0

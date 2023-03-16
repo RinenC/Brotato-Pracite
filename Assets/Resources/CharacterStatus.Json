@@ -1,0 +1,42 @@
+[
+  {
+    "idx": 0,
+    "name": "default",
+    "maxhp": 10,
+    "hpreg": 0,
+    "leech": 0,
+    "dmgper": 0,
+    "meeledmg": 0,
+    "rangedmg": 0,
+    "eledmg": 0,
+    "atkspd": 1.5,
+    "critchance": 0,
+    "engineer": 0,
+    "atkrange": 2,
+    "armor": 0,
+    "avoid": 0,
+    "movespd": 1,
+    "luck": 0,
+    "income": 0
+  },
+  {
+    "idx": 1,
+    "name": "versatility",
+    "maxhp": 15,
+    "hpreg": 0,
+    "leech": 0,
+    "dmgper": 0,
+    "meeledmg": 0,
+    "rangedmg": 0,
+    "eledmg": 0,
+    "atkspd": 0,
+    "critchance": 0,
+    "engineer": 0,
+    "atkrange": 0,
+    "armor": 0,
+    "avoid": 0,
+    "movespd": 5,
+    "luck": 0,
+    "income": 8
+  }
+]

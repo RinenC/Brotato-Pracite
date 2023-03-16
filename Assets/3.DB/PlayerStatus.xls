@@ -1,0 +1,3 @@
+idx	name	maxhp	hpreg	leech	dmgper	meeledmg	rangedmg	eledmg	atkspd	critchance	engineer	atkrange	armor	avoid	movespd	luck	income
+0	default	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	versatility	15	0	0	0	0	0	0	0	0	0	0	0	0	5	0	8
