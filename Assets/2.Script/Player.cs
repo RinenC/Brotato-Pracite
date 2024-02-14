@@ -12,41 +12,6 @@ public class Player : MonoBehaviour
 
     [SerializeField] public List<GameObject> targetList = new List<GameObject>();
 
-    public GameObject weapon1;
-    public GameObject weapon2;
-    public GameObject weapon3;
-    public GameObject weapon4;
-    public GameObject weapon5;
-    public GameObject weapon6;
-
-    public GameObject target1;
-    public GameObject target2;
-    public GameObject target3;
-    public GameObject target4;
-    public GameObject target5;
-    public GameObject target6;
-
-    public float attackaftertime1;
-    public float attackaftertime2;
-    public float attackaftertime3;
-    public float attackaftertime4;
-    public float attackaftertime5;
-    public float attackaftertime6;
-
-    public float attackcool1;
-    public float attackcool2;
-    public float attackcool3;
-    public float attackcool4;
-    public float attackcool5;
-    public float attackcool6;
-
-    public bool canattack1;
-    public bool canattack2;
-    public bool canattack3;
-    public bool canattack4;
-    public bool canattack5;
-    public bool canattack6;
-
     public GameObject bullet;
 
     public bool playerdeath;
@@ -109,22 +74,6 @@ public class Player : MonoBehaviour
         {
             playerdeath = true;
             gameObject.GetComponent<SpriteRenderer>().sprite = death;
-        }
-    }
-
-    public void AttackTimer1()
-    {
-        attackcool1 = GUIManager.Instance.haveweaponstat[0].atkcool * (1 - (status.atkspd / 100));
-        attackaftertime1 -= Time.deltaTime;
-        if (attackaftertime1 > 0)
-            canattack1 = false;
-        else if (attackaftertime1 <= 0)
-        {
-            if (canattack1)
-            {
-                attackaftertime1 = attackcool1;
-                canattack1 = true;
-            }
         }
     }
 
